@@ -1,0 +1,11 @@
+mod = [
+	"Tournament Assistant"
+]
+
+package = [
+	"resource_packages/Tournament Assistant/Tournament Assistant"
+]
+
+lua = [
+	"scripts/mods/Tournament Assistant/*"
+]

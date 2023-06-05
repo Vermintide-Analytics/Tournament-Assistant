@@ -39,3 +39,11 @@ luac.out
 *.x86_64
 *.hex
 
+# Custom
+core/physx_metadata
+bundleV2
+item_preview.png
+itemV2.cfg
+lua_preprocessor_defines.config
+*DB Connection.lua
+*.processed

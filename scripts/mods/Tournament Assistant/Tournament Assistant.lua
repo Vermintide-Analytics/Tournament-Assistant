@@ -5,7 +5,7 @@ if not steam_id then
     mod:echo("Tournament Assistant could not determine your Steam ID. All functionality disabled")
     return
 end
-steam_id = tostring(steam_id)
+steam_id = tostring(Steam.id_hex_to_dec(steam_id))
 
 local DB = dofile("scripts/mods/Tournament Assistant/DB")
 

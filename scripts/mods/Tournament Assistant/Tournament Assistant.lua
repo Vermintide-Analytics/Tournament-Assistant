@@ -12,7 +12,7 @@ local DB = dofile("scripts/mods/Tournament Assistant/DB")
 
 local level_table = {}
 DB.read("Levels", "select=id,name", function(error_code, data)
-    if error_code or not data then
+    if error_code or type(data) ~= "table" then
         mod:echo("Tournament Assistant could not retrieve level data, some features will not work")
         return
     end

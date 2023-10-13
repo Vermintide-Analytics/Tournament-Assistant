@@ -300,10 +300,6 @@ end)
 
 mod.on_game_state_changed = function(status, state_name)
     already_activated_events = {}
-    
-    if state_name == "StateIngame" and level_key == "inn_level" then
-        player_name_POST(player_name)
-    end
 end
 
 
